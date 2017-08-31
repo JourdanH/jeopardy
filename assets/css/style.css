@@ -1,0 +1,76 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}
+
+.long {
+  width: 375px;
+  height: 100px;
+  overflow: auto;
+  margin: 10px;
+
+
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: Blue;
+  color: white;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.screen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: Blue;
+  color: white;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+
+}
+
+form {
+  text-align: center;
+  font-size: 22px;
+
+}
+
+#total {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 28px;
+  text-shadow: 2px 2px gray;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#questionholder, #pointholder{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+#finalJeopardy {
+  text-align: center;
+  margin: 0 auto;
+}
